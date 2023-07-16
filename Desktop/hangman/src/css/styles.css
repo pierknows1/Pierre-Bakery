@@ -1,0 +1,142 @@
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.keyboardRow{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.letter {
+  padding: 10px;
+  font-size: 16px;
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 2px 6px #000;
+  outline: 1.5px solid #000;
+}
+
+.letter:hover {
+  background-color: darkgray;
+}
+
+.letter:focus {
+  outline: none;
+  background-color: darkgray;
+}
+
+  #resetGameBtn {
+    background-color: #ff4d4d;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #resetGameBtn:hover {
+    background-color: #e13636;
+  }
+  
+  #resetGameBtn:focus {
+    outline: none;
+  }
+
+  #newGameBtn {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    font-size: 16px;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #newGameBtn, #resetGameBtn {
+    width: 150px;
+    height: 40px;
+   transform: translate(740%, -930%) 
+  }
+  
+  #newGameBtn:hover {
+    background-color: #181818;
+  }
+  
+  #newGameBtn:focus {
+    outline: none;
+  }
+
+
+
+
+  #word-display {
+    font-size: 30px; 
+  }
+  
+  .placeholder {
+    margin-right: 12px;
+    background-color: black;
+    color: white;
+  }
+
+
+/* .body{
+  background-image: url('https://4kwallpapers.com/images/walls/thumbs_3t/6275.jpg');
+  background-size: cover;
+}  */
+
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+  color:azure;
+}
+
+h3{
+  color:azure;
+}
+
+#word-container {
+  margin-top: 30px;
+}
+
+#guesses-container {
+  margin-top: 20px;
+}
+
+#hangman-container {
+  margin-top: 40px;
+}
+
+/* #hangman-image {
+  width: 300px;
+  height: 300px;
+} */
+
+#input-container {
+  margin-top: 30px;
+}
+
+#letter-input {
+  width: 30px;
+}
+
+#guess-button {
+  margin-left: 10px;
+}
+
+/* .grayscale-image {
+  filter: grayscale(100%);
+} */
