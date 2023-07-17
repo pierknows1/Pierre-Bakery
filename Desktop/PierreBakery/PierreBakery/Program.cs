@@ -8,8 +8,9 @@ namespace Pierre_Bakery
         static void Main()
         {
             Console.WriteLine("Welcome to Pierre's Bakery!");
-            Console.WriteLine("SPECIAL!!!!    SPECIAL!!!!    BUY 3 LOAFS OF BREAD FOR THE PRICE OF 2");
-            Console.WriteLine("SPECIAL!!!!    SPECIAL!!!!    BUY 4 PASTRIES FOR THE PRICE OF 3");
+            Console.WriteLine("SPECIAL!!!!    SPECIAL!!!!    BUY 3 LOAVES OF BREAD FOR THE PRICE OF 2!!!");
+            Console.WriteLine("SPECIAL!!!!    SPECIAL!!!!    BUY 4 PASTRIES FOR THE PRICE OF 3!!!");
+            Console.WriteLine("Bread $5.00 ea. & Pastry $2.00 ea.");
 
 
             PlaceOrder();
@@ -20,18 +21,18 @@ namespace Pierre_Bakery
         private static void PlaceOrder()
         {
             Console.WriteLine();
-            Console.Write("Enter the quantity of bread: ");
+            Console.Write("How many loaves of bread would you like? ");
             int breadQuantity = int.Parse(Console.ReadLine());
 
-            Console.Write("Enter the quantity of pastries: ");
+            Console.Write("How many pastries would you like? ");
             int pastryQuantity = int.Parse(Console.ReadLine());
 
             UIBakery bakery = new UIBakery(breadQuantity, pastryQuantity);
             int totalCost = bakery.TotalCost();
 
             Console.WriteLine();
-            Console.WriteLine("Placed Order");
-            Console.WriteLine("------- Order Summary -------");
+            Console.WriteLine("Order Placed");
+            Console.WriteLine("------- Total Order -------");
             Console.WriteLine("Breads: " + breadQuantity);
             Console.WriteLine("Pastries: " + pastryQuantity);
             Console.WriteLine("Total Cost: $" + totalCost);

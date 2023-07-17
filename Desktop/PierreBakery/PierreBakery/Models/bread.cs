@@ -14,7 +14,7 @@ namespace PierreBakery.Models
             return Price * Quantity;
         }
         public int CalculateBogo()
-        {
+        { 
             if(Quantity != 3)
             {
                 return Quantity * 5;
