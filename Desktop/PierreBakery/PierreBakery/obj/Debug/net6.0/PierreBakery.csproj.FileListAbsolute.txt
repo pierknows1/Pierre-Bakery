@@ -1,0 +1,15 @@
+/Users/user/Desktop/PierreBakery/PierreBakery/bin/Debug/net6.0/PierreBakery
+/Users/user/Desktop/PierreBakery/PierreBakery/bin/Debug/net6.0/PierreBakery.deps.json
+/Users/user/Desktop/PierreBakery/PierreBakery/bin/Debug/net6.0/PierreBakery.runtimeconfig.json
+/Users/user/Desktop/PierreBakery/PierreBakery/bin/Debug/net6.0/PierreBakery.dll
+/Users/user/Desktop/PierreBakery/PierreBakery/bin/Debug/net6.0/PierreBakery.pdb
+/Users/user/Desktop/PierreBakery/PierreBakery/obj/Debug/net6.0/PierreBakery.csproj.AssemblyReference.cache
+/Users/user/Desktop/PierreBakery/PierreBakery/obj/Debug/net6.0/PierreBakery.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Desktop/PierreBakery/PierreBakery/obj/Debug/net6.0/PierreBakery.AssemblyInfoInputs.cache
+/Users/user/Desktop/PierreBakery/PierreBakery/obj/Debug/net6.0/PierreBakery.AssemblyInfo.cs
+/Users/user/Desktop/PierreBakery/PierreBakery/obj/Debug/net6.0/PierreBakery.csproj.CoreCompileInputs.cache
+/Users/user/Desktop/PierreBakery/PierreBakery/obj/Debug/net6.0/PierreBakery.dll
+/Users/user/Desktop/PierreBakery/PierreBakery/obj/Debug/net6.0/refint/PierreBakery.dll
+/Users/user/Desktop/PierreBakery/PierreBakery/obj/Debug/net6.0/PierreBakery.pdb
+/Users/user/Desktop/PierreBakery/PierreBakery/obj/Debug/net6.0/PierreBakery.genruntimeconfig.cache
+/Users/user/Desktop/PierreBakery/PierreBakery/obj/Debug/net6.0/ref/PierreBakery.dll
