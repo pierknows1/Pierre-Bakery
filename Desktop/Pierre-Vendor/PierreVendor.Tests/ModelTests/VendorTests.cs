@@ -55,8 +55,6 @@ namespace PierreVendor.Tests
             List<Vendor> result = Vendor.GetAll();
             
             CollectionAssert.AreEqual(newList, result);
-
-
         }
 
     }
