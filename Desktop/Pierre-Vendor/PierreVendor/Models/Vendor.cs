@@ -21,18 +21,18 @@ namespace PierreVendor.Models
             }
           
             
-            public static Vendor Find (int searchId)
+            public static Vendor Find (int vendorId)
             {
-                return _instances[searchId - 1];
+                return _instances[vendorId - 1];
             }
             
             public static void ClearAll()
             {
                 _instances.Clear();
             }
-            public static void Delete (int searchId)
+            public static void Delete (int vendorId)
             {
-                _instances.RemoveAll(vendor => vendor.Id == searchId);
+                _instances.RemoveAll(vendor => vendor.Id == vendorId);
             }
     }
 }
